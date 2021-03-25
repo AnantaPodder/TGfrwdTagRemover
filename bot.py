@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from config import Config
 from telegram import ParseMode
-from cmd import startCMD, helpCMD
+from cmd import *
 from func import *
 
 updater = Updater(Config.TOKEN)
